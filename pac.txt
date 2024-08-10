@@ -1,1 +1,1 @@
-function FindProxyForURL(url, host){url  = url.toLowerCase();host = host.toLowerCase(); if (shExpMatch(url,'*googleapis.com*')||shExpMatch(url,'*gvt1.com*')||shExpMatch(url,'*googleadservices.com*')||shExpMatch(url,'*googletagmanager.com*')){ return 'PROXY 0.0.0.0:10000';} }
+function FindProxyForURL(url, host){url  = url.toLowerCase();host = host.toLowerCase(); if (shExpMatch(url,'*googleapis.com*')||shExpMatch(url,'*gvt1.com*')||shExpMatch(url,'*googleadservices.com*')||shExpMatch(url,'*googletagmanager.com*')){ return 'PROXY 0.0.0.0:10000';} return 'DIRECT'}
